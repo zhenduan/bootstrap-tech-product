@@ -1,0 +1,137 @@
+body{
+    // overflow-x: hidden;
+}
+
+#main-nav{
+    .active{
+        border-left: 3px solid #444;
+    }
+    .nav-item{
+        padding-left: 1.4rem;
+    }
+}
+
+#main-footer{
+    background: black;
+}
+
+#showcase{
+    .carousel-item{
+        height: 450px;
+
+    }
+
+    .carousel-img-1{
+        background: url(../img/image1.jpg);
+        background-size: cover;
+    }
+    .carousel-img-2{
+        background: url(../img/image2.jpg);
+        background-size: cover;
+    }
+    .carousel-img-3{
+        background: url(../img/image3.jpg);
+        background-size: cover;
+    }
+}
+
+#home-heading{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+url("../img/lights.jpg") no-repeat center;
+    height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#video-play{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/media.jpg") no-repeat center;
+        height: 200px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      i{
+          color: #fff;
+      }
+}
+
+#newsletter{
+
+}
+
+// Photo Gallery
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #image-gallery .modal-footer{
+    display: block;
+  }
+  
+  .thumb{
+    margin-top: 8px;
+    margin-bottom: 4px;
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+  }
+
+//   About Page
+#page-header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/lights.jpg") no-repeat center;
+        height: 250px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+#about{
+    img{
+        margin-top: -50px;
+    }
+}
+
+// Services Page
+#services-header{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/image1.jpg") no-repeat center;
+        height: 250px;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+#price-table{
+    .card-footer{
+        background: #F7F7F7;
+    }
+}
+
+#faq{
+    .card{
+        background: #333 !important;
+    }
+}
+
+// MQ
+@media screen and (max-width: 768px) {
+
+    #info{
+        .info-left{
+            text-align: center;
+        }
+    }
+
+  }
